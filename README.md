@@ -60,3 +60,14 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
 plt.show()
+#| Step                       | Purpose                                       |
+#| -------------------------- | --------------------------------------------- |
+#| `read_csv()`               | Load real-world data                          |
+#| `drop()`                   | Remove irrelevant columns                     |
+#| `get_dummies()`            | Convert text into machine-readable numbers    |
+#| `train_test_split()`       | Prepare data for training/testing             |
+#| `RandomForestClassifier()` | Build a strong predictive model               |
+#| `fit()`                    | Train the model                               |
+#| `predict()`                | Make predictions                              |
+#| `classification_report()`  | Understand model quality                      |
+#| `heatmap()`                | Visually understand success and failure cases |
